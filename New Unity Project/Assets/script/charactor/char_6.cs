@@ -9,8 +9,22 @@ public class char_6 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if (WhatFloor.floor == 1)
+        {
+            transform.position = new Vector3(-29.57f, -3.58f, 0f);
+        }
+        else if (WhatClass.classroom == 104)
+        {
+            transform.position = new Vector3(-11.43f, 3.31f, 0f);
+        }
+        else if (WhatClass.classroom == 105)
+        {
+            transform.position = new Vector3(10.64f, 3.19f, 0f);
+        }
         WhatFloor.floor = 6;
-        transform.position = new Vector3(-30f, -4f, 0f);
+        WhatFloor.last = 6;
+        WhatClass.classroom = 0;
+        
 
     }
 
@@ -37,5 +51,19 @@ public class char_6 : MonoBehaviour
 
         }
         GetComponent<Rigidbody2D>().velocity = speed_vec;
+    }
+    private void OnCollisionEnter2D(Collision2D collision) //어느 강의실 문에 부딪혔는지
+    {
+        if (collision.gameObject.tag == "104")
+        {
+            WhatClass.classroom = 104;
+            Debug.Log(WhatClass.classroom);
+        }
+        else if (collision.gameObject.tag == "105")
+        {
+            WhatClass.classroom = 105;
+            Debug.Log(WhatClass.classroom);
+        }
+
     }
 }

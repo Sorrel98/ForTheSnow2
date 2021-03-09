@@ -9,8 +9,7 @@ public class classroom : MonoBehaviour
     // Start is called before the first frame update
     void Start()
         {
-        WhatFloor.floor = 7;
-        //transform.position = new Vector3(12.99f -25.26f, 0f);
+        
         }
 
     // Update is called once per frame

@@ -10,7 +10,25 @@ public class char_3nd : MonoBehaviour
 
     void Start()
     {
+        if (WhatClass.classroom == 301)
+        {
+            transform.position = new Vector3(-4.18f, 6.51f, 0f);
+        }
+        else if (WhatClass.classroom == 302)
+        {
+            transform.position = new Vector3(6.64f, 6.51f, 0f);
+        }
+        else if (WhatClass.classroom == 303)
+        {
+            transform.position = new Vector3(18.14f, 6.51f, 0f);
+        }
+        else
+        {
+            transform.position = new Vector3(12.67f, -15.5f, 0f);
+        }
         WhatFloor.floor = 3;
+        WhatFloor.last = 3;
+        WhatClass.classroom = 0;
     }
     void Update()
     {
@@ -34,6 +52,26 @@ public class char_3nd : MonoBehaviour
 
         }
         GetComponent<Rigidbody2D>().velocity = speed_vec;
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision) //어느 강의실 문에 부딪혔는지
+    {
+        if (collision.gameObject.tag == "301")
+        {
+            WhatClass.classroom = 301;
+            Debug.Log(WhatClass.classroom);
+        }
+        else if (collision.gameObject.tag == "302")
+        {
+            WhatClass.classroom = 302;
+            Debug.Log(WhatClass.classroom);
+        }
+        else if (collision.gameObject.tag == "303")
+        {
+            WhatClass.classroom = 303;
+            Debug.Log(WhatClass.classroom);
+        }
+
     }
 
 }

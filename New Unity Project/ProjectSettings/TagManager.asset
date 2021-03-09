@@ -5,6 +5,15 @@ TagManager:
   serializedVersion: 2
   tags:
   - player
+  - 101
+  - 102
+  - 103
+  - 104
+  - 105
+  - 201
+  - 301
+  - 302
+  - 303
   layers:
   - Default
   - TransparentFX

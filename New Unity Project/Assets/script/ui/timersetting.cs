@@ -13,11 +13,11 @@ public class timersetting : MonoBehaviour
         if ((int)GameTime == 0)
         {
             GameTimeText.text = "게임종료";
-            Debug.Log("게임 종료");
+            //Debug.Log("게임 종료");
         }else
         {
             GameTime -= Time.deltaTime;
-            Debug.Log((int)GameTime);
+            //Debug.Log((int)GameTime);
             GameTimeText.text = "Time : " + (int)GameTime;
         }
     }
