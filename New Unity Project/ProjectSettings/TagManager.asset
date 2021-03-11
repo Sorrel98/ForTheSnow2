@@ -5,15 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - player
-  - 101
-  - 102
-  - 103
-  - 104
-  - 105
-  - 201
-  - 301
-  - 302
-  - 303
+  - getItem
+  - FieldItem
   layers:
   - Default
   - TransparentFX
@@ -23,7 +16,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - Consumable
   - 
   - 
   - 
