@@ -5,8 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - player
-  - getItem
   - FieldItem
+  - Store
   layers:
   - Default
   - TransparentFX

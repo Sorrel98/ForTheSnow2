@@ -20,6 +20,7 @@ public class InventoryUI : MonoBehaviour
         inven.onSlotCountChange += SlotChange;
         inven.onChangeItem += RedrawSlotUI;
         inventoryPanel.SetActive(activeInventory);
+        closeShop.onClick.AddListener(DeActiveShop);
     }
 
     private void SlotChange(int val)
@@ -43,6 +44,8 @@ public class InventoryUI : MonoBehaviour
             activeInventory = !activeInventory;
             inventoryPanel.SetActive(activeInventory);
         }
+        if(Input.GetMouseButtonUp(0))
+        RayShop();
     }
 
     public void AddSlot()
@@ -62,4 +65,32 @@ public class InventoryUI : MonoBehaviour
             slots[i].UpdateSlotUI();
         }
     }
+    
+    public GameObject shop;
+    public Button closeShop;
+
+    public void RayShop()
+    {
+        Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        mousePos.z = -10;
+        RaycastHit2D hit2D = Physics2D.Raycast(mousePos, transform.forward, 30);
+        if(hit2D.collider != null)
+        {
+            if(hit2D.collider.CompareTag("Store"))
+            {
+                ActiveShop(true);
+            }
+        }
+     }
+
+     public void ActiveShop(bool isOpen)
+     {
+          shop.SetActive(isOpen);
+     }
+     public void DeActiveShop()
+     {
+          ActiveShop(false);
+     }
 }
+
+

@@ -9,7 +9,6 @@ public class openPopup : MonoBehaviour {
     Vector2 ObjectPosition;
     Camera Camera;
     public GameObject target;
-    // Start is called before the first frame update
 
     void OnMouseDown(){
         Debug.Log("open");
@@ -17,13 +16,11 @@ public class openPopup : MonoBehaviour {
      }
      
  
-    // Use this for initialization
     void Start () {
         Camera = GameObject.Find("Main Camera").GetComponent<Camera>();
         ObjectPosition = target.transform.position;
     }
     
-    // Update is called once per frame
     void Update () {
         if(Input.GetMouseButtonDown(0))
         {
