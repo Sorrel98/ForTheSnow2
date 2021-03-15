@@ -15,6 +15,7 @@ public class Item
 {
 	public ItemType itemType;
 	public string itemName;
+	public int itemCost;
 	public Sprite itemImage;
 	public List<ItemEffect> efts;
 

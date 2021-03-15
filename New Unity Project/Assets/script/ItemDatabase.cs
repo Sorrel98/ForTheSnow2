@@ -5,6 +5,9 @@ using UnityEngine;
 public class ItemDatabase : MonoBehaviour
 {
 	public static ItemDatabase instance;
+
+	public int money = 0;
+
 	private void Awake()
 	{
 		instance = this;
@@ -16,6 +19,7 @@ public class ItemDatabase : MonoBehaviour
 
 	private void Start()
 	{
+		money = 10;
 		for(int i = 0; i<2; i++){
 			GameObject go = Instantiate(fieldItemPrefab, pos[i], Quaternion.identity);
 			go.GetComponent<FieldItems>().SetItem(itemDB[Random.Range(0,3)]);

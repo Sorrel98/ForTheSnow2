@@ -19,6 +19,7 @@ public class InventoryUI : MonoBehaviour
         slots = slotHolder.GetComponentsInChildren<Slot>();
         inven.onSlotCountChange += SlotChange;
         inven.onChangeItem += RedrawSlotUI;
+        RedrawSlotUI();
         inventoryPanel.SetActive(activeInventory);
         closeShop.onClick.AddListener(DeActiveShop);
     }
@@ -39,7 +40,7 @@ public class InventoryUI : MonoBehaviour
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.I))
+        if(Input.GetKeyDown(KeyCode.I) && !isStoreActive)
         {
             activeInventory = !activeInventory;
             inventoryPanel.SetActive(activeInventory);
@@ -68,6 +69,7 @@ public class InventoryUI : MonoBehaviour
     
     public GameObject shop;
     public Button closeShop;
+    public bool isStoreActive;
 
     public void RayShop()
     {
@@ -78,18 +80,38 @@ public class InventoryUI : MonoBehaviour
         {
             if(hit2D.collider.CompareTag("Store"))
             {
-                ActiveShop(true);
+                if(!isStoreActive)
+                {
+                    ActiveShop(true);
+                }
             }
         }
      }
 
      public void ActiveShop(bool isOpen)
-     {
-          shop.SetActive(isOpen);
+     { 
+        if(!activeInventory)
+        {
+            isStoreActive = isOpen;
+            shop.SetActive(isOpen);
+            inventoryPanel.SetActive(isOpen);
+            for(int i = 0; i<slots.Length; i++)
+            {
+                slots[i].isShopMode = isOpen;
+            }
+        }
      }
      public void DeActiveShop()
      {
           ActiveShop(false);
+     }
+
+     public void SellBtn()
+     {
+        for(int i = slots.Length; i>0; i--)
+        {
+            slots[i-1].SellItem();
+        }
      }
 }
 
