@@ -6,6 +6,7 @@ public class charMove : MonoBehaviour
 {
     public float speed;
     public Vector2 speed_vec;
+    public GameObject Target;
     // Start is called before the first frame update
     void Start()
     {
@@ -25,15 +26,12 @@ public class charMove : MonoBehaviour
             {
                 speed_vec.x += speed;
             }
-            if (Input.GetKey(KeyCode.UpArrow))
-            {
-                speed_vec.y += speed;
-            }
-            if (Input.GetKey(KeyCode.DownArrow))
-            {
-                speed_vec.y -= speed;
-
-            }
             GetComponent<Rigidbody2D>().velocity = speed_vec;
+
+
+        if (Target.activeSelf == true)
+        {
+            speed = 0;
         }
+    }
 }
