@@ -19,10 +19,10 @@ public class ItemDatabase : MonoBehaviour
 
 	private void Start()
 	{
-		money = 10;
-		for(int i = 0; i<2; i++){
+		money = 1000;
+		/*for(int i = 0; i<2; i++){
 			GameObject go = Instantiate(fieldItemPrefab, pos[i], Quaternion.identity);
 			go.GetComponent<FieldItems>().SetItem(itemDB[Random.Range(0,3)]);
-		}
+		}*/
 	}
 }

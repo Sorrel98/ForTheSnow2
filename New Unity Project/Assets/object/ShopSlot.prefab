@@ -222,3 +222,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba4e89b99116a554ead7ee30938d1815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  slotnum: 0
+  item:
+    itemType: 0
+    itemName: 
+    itemCost: 0
+    itemImage: {fileID: 0}
+    efts: []
+  itemIcon: {fileID: 394570326432318478}
+  soldOut: 0

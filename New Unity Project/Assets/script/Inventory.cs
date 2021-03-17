@@ -37,7 +37,7 @@ public class Inventory : MonoBehaviour
 
     void Start()
     {
-        SlotCnt = 3;
+        SlotCnt = 9;
     }
 
     public bool AddItem(Item _item)
