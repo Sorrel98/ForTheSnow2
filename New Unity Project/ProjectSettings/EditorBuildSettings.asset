@@ -32,4 +32,16 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/\uAC15\uC758\uC2E4.unity"
     guid: 243bab45c4a130a4f9f2a59337d0c257
+  - enabled: 1
+    path: "Assets/Scenes/\uCCB4\uC721_notice.unity"
+    guid: 80a307322cfcf684586056e5b149a5cb
+  - enabled: 1
+    path: "Assets/Scenes/\uCCB4\uC721\uACFC\uBAA9.unity"
+    guid: b39c1fed1bdc8cd4ab7a2faf89ee28d9
+  - enabled: 1
+    path: "Assets/Scenes/\uCCB4\uC721_\uAC8C\uC784\uC624\uBC84.unity"
+    guid: df0d331d51aeffb4ca30bd4d64c706c4
+  - enabled: 1
+    path: "Assets/Scenes/\uCCB4\uC721_\uC131\uC801\uD45C.unity"
+    guid: 9df0b9328a96e9443b4e833b808e0fde
   m_configObjects: {}

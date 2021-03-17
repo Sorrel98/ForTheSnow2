@@ -3,47 +3,35 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Threading;
+using UnityEngine.SceneManagement;
 
 public class timersetting : MonoBehaviour
 {
-    private float GameTime = 3;
+    private float GameTime = 0;
     public Text GameTimeText = null;
-    public GameObject Target;
-    public GameObject timer;
-    public GameObject Fin;
 
     void Start()
     {
-        Target.SetActive(true);
-        timer.SetActive(false);
-        Fin.SetActive(false);
     }
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            Target.SetActive(false);
-        }
-
-        if (Target.activeSelf == false)
-        {
-            timer.SetActive(true);
-            Timer();
-        }
+        Timer();
     }
 
     void Timer()
     {
-        GameTime-=Time.deltaTime;
+        GameTime+=Time.deltaTime;
         GameTimeText.text = "Time : " + (int)GameTime;
+        finish.time = GameTime;
 
-        if((int)GameTime < 0)
+        if((int)GameTime > 10)
         {
             GameTimeText.text = "게임종료";
             Debug.Log("게임 종료");
-            timer.SetActive(false);
-            Fin.SetActive(true);
+            finish.fin = true;
+            SceneManager.LoadScene("체육_게임오버");
+            finish.score = 3;
             return ;
         }
     }

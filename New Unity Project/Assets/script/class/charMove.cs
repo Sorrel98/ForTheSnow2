@@ -29,7 +29,7 @@ public class charMove : MonoBehaviour
             GetComponent<Rigidbody2D>().velocity = speed_vec;
 
 
-        if (Target.activeSelf == true)
+        if (finish.fin == true)
         {
             speed = 0;
         }
