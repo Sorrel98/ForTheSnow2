@@ -1,18 +1,22 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
- 
-public class openPopup : MonoBehaviour {
- 
-    public GameObject popup;
+
+public class getItem : MonoBehaviour
+{
     Vector2 MousePosition;
     Vector2 ObjectPosition;
     Camera Camera;
     public GameObject target;
 
+	public List<Item>itemDB = new List<Item>();
+    public GameObject fieldItemPrefab;
+    public Vector2[] pos;
+
     void OnMouseDown(){
-        Debug.Log("open");
-        popup.SetActive(true);
+        Debug.Log("get");
+		GameObject go = Instantiate(fieldItemPrefab, pos[1], Quaternion.identity);
+		go.GetComponent<FieldItems>().SetItem(itemDB[1]);
      }
      
  
