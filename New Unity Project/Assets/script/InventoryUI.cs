@@ -101,6 +101,19 @@ public class InventoryUI : MonoBehaviour
                     }
                 }
             }
+            else if(hit2D.collider.CompareTag("Print"))
+            {
+                if(!isStoreActive)
+                {
+                    ActiveShop(true);
+                    shopData = hit2D.collider.GetComponent<ShopData>();
+                    for(int i = 0; i<1;i++)
+                    {
+                        shopSlots[i].item = shopData.stocks[i];
+                        shopSlots[i].UpdateSlotUI();
+                    }
+                }
+            }
         }
      }
 

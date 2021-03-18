@@ -41,7 +41,7 @@ public class ShopSlot : MonoBehaviour, IPointerUpHandler
 			{
 				ItemDatabase.instance.money -= item.itemCost;
 				Inventory.instance.AddItem(item);
-				soldOut = true;
+				//soldOut = true;
 				inventoryUI.Buy(slotnum);
 				UpdateSlotUI();
 			}

@@ -7,6 +7,12 @@ TagManager:
   - player
   - FieldItem
   - Store
+  - 102
+  - 101
+  - 105
+  - 104
+  - 103
+  - Print
   layers:
   - Default
   - TransparentFX
