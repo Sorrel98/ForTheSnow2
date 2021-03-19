@@ -11,7 +11,7 @@ public class LoadingTimer : MonoBehaviour
     void Start()
     {
         timer = 0.0;
-        waitingTime = 2;
+        waitingTime = 1;
     }
  
     void Update()

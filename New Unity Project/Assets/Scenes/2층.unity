@@ -138,6 +138,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 3201262119191038210, guid: 68c9650695e3f96408e93ad322df9b5a,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3201262119191038718, guid: 68c9650695e3f96408e93ad322df9b5a,
         type: 3}
       propertyPath: m_Pivot.x
@@ -1296,9 +1301,10 @@ GameObject:
   - component: {fileID: 1479316987}
   - component: {fileID: 1479316986}
   - component: {fileID: 1479316985}
+  - component: {fileID: 1479316988}
   m_Layer: 0
   m_Name: printer (2)
-  m_TagString: Untagged
+  m_TagString: Print
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1393,6 +1399,20 @@ Transform:
   m_Father: {fileID: 496944707}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1479316988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1479316984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fadf5a3d781441546a42f428ea26ad4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stocks: []
+  soldOuts: 
 --- !u!1001 &1588143682
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1821,9 +1841,10 @@ GameObject:
   - component: {fileID: 1995367832}
   - component: {fileID: 1995367831}
   - component: {fileID: 1995367830}
+  - component: {fileID: 1995367833}
   m_Layer: 0
   m_Name: printer
-  m_TagString: Untagged
+  m_TagString: Print
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1918,6 +1939,20 @@ Transform:
   m_Father: {fileID: 496944707}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1995367833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995367829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fadf5a3d781441546a42f428ea26ad4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stocks: []
+  soldOuts: 
 --- !u!1 &2064885343
 GameObject:
   m_ObjectHideFlags: 0
@@ -1929,9 +1964,10 @@ GameObject:
   - component: {fileID: 2064885346}
   - component: {fileID: 2064885345}
   - component: {fileID: 2064885344}
+  - component: {fileID: 2064885347}
   m_Layer: 0
   m_Name: printer (1)
-  m_TagString: Untagged
+  m_TagString: Print
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2026,6 +2062,20 @@ Transform:
   m_Father: {fileID: 496944707}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2064885347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2064885343}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fadf5a3d781441546a42f428ea26ad4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stocks: []
+  soldOuts: 
 --- !u!4 &2113417060 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 243168579070202144, guid: 78cd0c6ef03f30948969ff4bf27a12da,

@@ -37,7 +37,7 @@ public class Inventory : MonoBehaviour
 
     void Start()
     {
-        SlotCnt = 3;
+        slotCnt = 9;
     }
 
     public bool AddItem(Item _item)
@@ -46,8 +46,10 @@ public class Inventory : MonoBehaviour
         {
             items.Add(_item);
             if(onChangeItem != null)
-            onChangeItem.Invoke();
-            return true;
+            {
+                onChangeItem.Invoke();
+                return true;
+            }
         }
         return false;
     }
