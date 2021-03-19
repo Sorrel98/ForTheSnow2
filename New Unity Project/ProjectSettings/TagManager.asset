@@ -8,6 +8,11 @@ TagManager:
   - getItem
   - FieldItem
   - ground
+  - 102
+  - 101
+  - o
+  - x
+  - Camera
   layers:
   - Default
   - TransparentFX
