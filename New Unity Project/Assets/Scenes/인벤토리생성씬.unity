@@ -4283,7 +4283,7 @@ PrefabInstance:
     - target: {fileID: 5182007953828351079, guid: 25650f3f331f30c4ab2c2a717f37864a,
         type: 3}
       propertyPath: pos.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5182007953828351079, guid: 25650f3f331f30c4ab2c2a717f37864a,
         type: 3}

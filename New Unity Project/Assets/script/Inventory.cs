@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Inventory : MonoBehaviour
 {
@@ -60,7 +61,7 @@ public class Inventory : MonoBehaviour
         onChangeItem.Invoke();
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    /*private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("FieldItem"))
         {
@@ -68,5 +69,5 @@ public class Inventory : MonoBehaviour
             if(AddItem(fieldItems.GetItem()))
                 fieldItems.DestroyItem();
         }
-    }
+    }*/
 }
