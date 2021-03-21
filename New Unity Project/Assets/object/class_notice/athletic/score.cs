@@ -23,10 +23,5 @@ public class score : MonoBehaviour
         }
         scoreSum.sum += finish.score;
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }
