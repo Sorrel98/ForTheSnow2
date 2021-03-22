@@ -682,7 +682,7 @@ GameObject:
   - component: {fileID: 733520520}
   m_Layer: 0
   m_Name: "\uC790\uD310\uAE30"
-  m_TagString: Untagged
+  m_TagString: Money
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1287,6 +1287,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: "\uC4F0\uB808\uAE30\uD1B5_\uC88C"
+      objectReference: {fileID: 0}
+    - target: {fileID: 243168579070202146, guid: 78cd0c6ef03f30948969ff4bf27a12da,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78cd0c6ef03f30948969ff4bf27a12da, type: 3}

@@ -94,10 +94,10 @@ public class InventoryUI : MonoBehaviour
                 {
                     ActiveShop(true);
                     shopData = hit2D.collider.GetComponent<ShopData>();
-                    for(int i = 0; i<shopData.stocks.Count;i++)
+                    for(int i = 1; i<3;i++)
                     {
-                        shopSlots[i].item = shopData.stocks[i];
-                        shopSlots[i].UpdateSlotUI();
+                        shopSlots[i-1].item = shopData.stocks[i];
+                        shopSlots[i-1].UpdateSlotUI();
                     }
                 }
             }
@@ -107,10 +107,23 @@ public class InventoryUI : MonoBehaviour
                 {
                     ActiveShop(true);
                     shopData = hit2D.collider.GetComponent<ShopData>();
-                    for(int i = 0; i<1;i++)
+                    for(int i = 3; i<9;i++)
                     {
-                        shopSlots[i].item = shopData.stocks[i];
-                        shopSlots[i].UpdateSlotUI();
+                        shopSlots[i-3].item = shopData.stocks[i];
+                        shopSlots[i-3].UpdateSlotUI();
+                    }
+                }
+            }
+            else if(hit2D.collider.CompareTag("Money"))
+            {
+                if(!isStoreActive)
+                {
+                    ActiveShop(true);
+                    shopData = hit2D.collider.GetComponent<ShopData>();
+                    for(int j = 3; j<9;j++)
+                    {
+                        shopSlots[j-3].item = shopData.stocks[j];
+                        shopSlots[j-3].UpdateSlotUI();
                     }
                 }
             }
