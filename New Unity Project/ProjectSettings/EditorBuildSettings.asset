@@ -59,4 +59,13 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/\uC724\uB9AC\uACFC\uBAA9.unity"
     guid: c23b76467e5414444853542005c313b9
+  - enabled: 1
+    path: "Assets/Scenes/\uC724\uB9AC_\uAC8C\uC784\uC624\uBC84.unity"
+    guid: a18ef342af204cd478373081a11c9a5c
+  - enabled: 1
+    path: "Assets/Scenes/\uC724\uB9AC_notice.unity"
+    guid: a8164c1fb73a4e2438d94a68d7a51411
+  - enabled: 1
+    path: "Assets/Scenes/\uC724\uB9AC_\uC131\uC801\uD45C.unity"
+    guid: fe41b1e0cd0aa844caa3b6635d9ea81e
   m_configObjects: {}

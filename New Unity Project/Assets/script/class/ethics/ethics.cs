@@ -13,12 +13,10 @@ public class ethics : MonoBehaviour
     public GameObject ans3;
 
     public GameObject re;
+
     // Start is called before the first frame update
     void Start()
     {
-        num1.SetActive(true);
-        num2.SetActive(false);
-        num3.SetActive(false);
         ans1.SetActive(false);
         ans2.SetActive(false);
         ans3.SetActive(false);
@@ -30,11 +28,24 @@ public class ethics : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            num1.SetActive(false);
-            ans1.SetActive(true);
-            ans2.SetActive(true);
-            ans3.SetActive(true);
-            re.SetActive(true);
+            if (ethics_score.ethicsNum == 1)
+            {
+                num1.SetActive(false);
+                ans1.SetActive(true);
+                re.SetActive(true);
+            }
+            else if (ethics_score.ethicsNum == 2)
+            {
+                num2.SetActive(false);
+                ans2.SetActive(true);
+                re.SetActive(true);
+            }
+            else if (ethics_score.ethicsNum == 3)
+            {
+                num3.SetActive(false);
+                ans3.SetActive(true);
+                re.SetActive(true);
+            }
         }
     }
 }
