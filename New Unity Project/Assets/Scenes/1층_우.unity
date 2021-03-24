@@ -4303,9 +4303,10 @@ GameObject:
   - component: {fileID: 1580273335}
   - component: {fileID: 1580273334}
   - component: {fileID: 1580273333}
+  - component: {fileID: 1580273336}
   m_Layer: 0
   m_Name: "\uC815\uC218\uAE30"
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4400,6 +4401,20 @@ Transform:
   m_Father: {fileID: 173538162}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1580273336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580273332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fadf5a3d781441546a42f428ea26ad4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stocks: []
+  soldOuts: 
 --- !u!1001 &1606364797
 PrefabInstance:
   m_ObjectHideFlags: 0

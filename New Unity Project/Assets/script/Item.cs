@@ -8,7 +8,10 @@ public enum ItemType
 	Bread,
 	Water,
 	Paper,
-	Enrolment
+	Enrolment,
+	FreePaper,
+	FreeBread,
+	FreeCoin
 }
 
 [System.Serializable]

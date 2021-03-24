@@ -8,7 +8,7 @@ public class ShopData : MonoBehaviour
     public bool[] soldOuts;
     void Start()
     {
-        for(int i = 0; i < 9; i++)
+        for(int i = 0; i < 13; i++)
         {
             stocks.Add(ItemDatabase.instance.itemDB[i]);
         }
