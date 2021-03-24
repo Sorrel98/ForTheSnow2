@@ -10,7 +10,7 @@ public class openPopup : MonoBehaviour {
     Camera Camera;
     public GameObject target;
 
-    void OnMouseDown(){
+    public void OnMouseDown(){
         Debug.Log("open");
         popup.SetActive(true);
      }
