@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnrolmentClass : MonoBehaviour
 {
@@ -10,6 +11,8 @@ public class EnrolmentClass : MonoBehaviour
     public bool art = false;
     public bool athletic = false;
     public bool ethics = false;
+
+    public Button[] btnList;
 
     void Start()
     {
@@ -22,17 +25,39 @@ public class EnrolmentClass : MonoBehaviour
         
     }
 
-    public void Enrolment(Collider other)
+    public void enrolmentHistory()
     {
-        if(other.gameObject.CompareTag("history"))
-        {
-            Debug.Log("change");
-            history = true;
-            Debug.Log(history);
-        }
-        else if(CompareTag("history"))
-        {
-            history = true;
-        }
+        history = true;
+        btnList[0].GetComponent<Button>().interactable = false;
+    }
+
+    public void enrolmentArt()
+    {
+        art = true;
+        btnList[1].GetComponent<Button>().interactable = false;
+    }
+
+    public void enrolmentLit()
+    {
+        lit = true;
+        btnList[2].GetComponent<Button>().interactable = false;
+    }
+
+    public void enrolmentMusic()
+    {
+        music = true;
+        btnList[3].GetComponent<Button>().interactable = false;
+    }
+
+    public void enrolmentAthletic()
+    {
+        athletic = true;
+        btnList[4].GetComponent<Button>().interactable = false;
+    }
+
+    public void enrolmentEthics()
+    {
+        ethics = true;
+        btnList[5].GetComponent<Button>().interactable = false;
     }
 }
