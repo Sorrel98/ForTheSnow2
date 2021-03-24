@@ -13,8 +13,9 @@ TagManager:
   - 104
   - 103
   - Print
-  - history
   - Money
+  - Random
+  - Water
   layers:
   - Default
   - TransparentFX

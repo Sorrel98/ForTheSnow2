@@ -120,10 +120,33 @@ public class InventoryUI : MonoBehaviour
                 {
                     ActiveShop(true);
                     shopData = hit2D.collider.GetComponent<ShopData>();
-                    for(int j = 3; j<9;j++)
+                    for(int i = 0; i<1;i++)
                     {
-                        shopSlots[j-3].item = shopData.stocks[j];
-                        shopSlots[j-3].UpdateSlotUI();
+                        shopSlots[i].item = shopData.stocks[i];
+                        shopSlots[i].UpdateSlotUI();
+                    }
+                }
+            }
+            else if(hit2D.collider.CompareTag("Random"))
+            {
+                if(!isStoreActive)
+                {
+                    ActiveShop(true);
+                    shopData = hit2D.collider.GetComponent<ShopData>();
+                    shopSlots[0].item = shopData.stocks[Random.Range(10,12)];
+                    shopSlots[0].UpdateSlotUI();
+                }
+            }
+            else if(hit2D.collider.CompareTag("Water"))
+            {
+                if(!isStoreActive)
+                {
+                    ActiveShop(true);
+                    shopData = hit2D.collider.GetComponent<ShopData>();
+                    for(int i = 9; i<10;i++)
+                    {
+                        shopSlots[i-9].item = shopData.stocks[i];
+                        shopSlots[i-9].UpdateSlotUI();
                     }
                 }
             }
