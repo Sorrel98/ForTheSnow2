@@ -94,10 +94,10 @@ public class InventoryUI : MonoBehaviour
                 {
                     ActiveShop(true);
                     shopData = hit2D.collider.GetComponent<ShopData>();
-                    for(int i = 0; i<shopData.stocks.Count;i++)
+                    for(int i = 1; i<3;i++)
                     {
-                        shopSlots[i].item = shopData.stocks[i];
-                        shopSlots[i].UpdateSlotUI();
+                        shopSlots[i-1].item = shopData.stocks[i];
+                        shopSlots[i-1].UpdateSlotUI();
                     }
                 }
             }
@@ -107,10 +107,46 @@ public class InventoryUI : MonoBehaviour
                 {
                     ActiveShop(true);
                     shopData = hit2D.collider.GetComponent<ShopData>();
+                    for(int i = 3; i<9;i++)
+                    {
+                        shopSlots[i-3].item = shopData.stocks[i];
+                        shopSlots[i-3].UpdateSlotUI();
+                    }
+                }
+            }
+            else if(hit2D.collider.CompareTag("Money"))
+            {
+                if(!isStoreActive)
+                {
+                    ActiveShop(true);
+                    shopData = hit2D.collider.GetComponent<ShopData>();
                     for(int i = 0; i<1;i++)
                     {
                         shopSlots[i].item = shopData.stocks[i];
                         shopSlots[i].UpdateSlotUI();
+                    }
+                }
+            }
+            else if(hit2D.collider.CompareTag("Random"))
+            {
+                if(!isStoreActive)
+                {
+                    ActiveShop(true);
+                    shopData = hit2D.collider.GetComponent<ShopData>();
+                    shopSlots[0].item = shopData.stocks[Random.Range(10,12)];
+                    shopSlots[0].UpdateSlotUI();
+                }
+            }
+            else if(hit2D.collider.CompareTag("Water"))
+            {
+                if(!isStoreActive)
+                {
+                    ActiveShop(true);
+                    shopData = hit2D.collider.GetComponent<ShopData>();
+                    for(int i = 9; i<10;i++)
+                    {
+                        shopSlots[i-9].item = shopData.stocks[i];
+                        shopSlots[i-9].UpdateSlotUI();
                     }
                 }
             }

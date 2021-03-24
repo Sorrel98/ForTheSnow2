@@ -5,14 +5,17 @@ TagManager:
   serializedVersion: 2
   tags:
   - player
-  - getItem
   - FieldItem
-  - ground
+  - Store
   - 102
   - 101
-  - o
-  - x
-  - Camera
+  - 105
+  - 104
+  - 103
+  - Print
+  - Money
+  - Random
+  - Water
   layers:
   - Default
   - TransparentFX
