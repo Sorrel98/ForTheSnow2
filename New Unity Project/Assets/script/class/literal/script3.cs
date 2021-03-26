@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class script3 : MonoBehaviour
 {
+    public GameObject script;
+    public GameObject target1;
+    public GameObject target2;
+    public GameObject target3;
+    public GameObject canvas;
+    public GameObject notebook;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +19,14 @@ public class script3 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetMouseButtonDown(0))
+        {
+            script.SetActive(false);
+            target1.SetActive(true);
+            target2.SetActive(true);
+            target3.SetActive(true);
+            canvas.SetActive(true);
+            notebook.SetActive(true);
+        }
     }
 }
