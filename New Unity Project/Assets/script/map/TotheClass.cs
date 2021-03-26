@@ -5,11 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class TotheClass : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
     // Update is called once per frame
     private void OnCollisionEnter2D(Collision2D collision)
@@ -18,6 +13,7 @@ public class TotheClass : MonoBehaviour
         {
             Debug.Log(collision.gameObject);
             SceneManager.LoadScene("강의실");
+            
         }
 
     }

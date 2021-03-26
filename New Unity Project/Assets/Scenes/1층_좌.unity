@@ -1566,7 +1566,7 @@ PrefabInstance:
     - target: {fileID: 3201262119191038210, guid: 68c9650695e3f96408e93ad322df9b5a,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3201262119191038718, guid: 68c9650695e3f96408e93ad322df9b5a,
         type: 3}
@@ -3623,6 +3623,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: EventSystem
+      objectReference: {fileID: 0}
+    - target: {fileID: 611646910307609929, guid: f80b38daa7d4e2047b79b252f1fc97d5,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f80b38daa7d4e2047b79b252f1fc97d5, type: 3}
