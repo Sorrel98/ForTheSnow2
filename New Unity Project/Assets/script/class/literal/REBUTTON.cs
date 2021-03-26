@@ -11,6 +11,7 @@ public class REBUTTON : MonoBehaviour
     public GameObject target1;
     public GameObject target2;
     public GameObject target3;
+    public GameObject target4;
 
     public GameObject input;
 
@@ -38,6 +39,7 @@ public class REBUTTON : MonoBehaviour
             rebtn.SetActive(false);
             notebook.SetActive(false);
             input.SetActive(false);
+            target4.SetActive(false);
         }
         else if (literal_total.literalNum == 2)
         {
@@ -45,6 +47,7 @@ public class REBUTTON : MonoBehaviour
             rebtn.SetActive(false);
             notebook.SetActive(false);
             input.SetActive(false);
+            target4.SetActive(false);
         }
         else if (literal_total.literalNum == 3)
         {
@@ -52,6 +55,7 @@ public class REBUTTON : MonoBehaviour
             rebtn.SetActive(false);
             notebook.SetActive(false);
             input.SetActive(false);
+            target4.SetActive(false);
         }
     }
 }

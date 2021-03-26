@@ -5,9 +5,12 @@ using UnityEngine;
 public class script1 : MonoBehaviour
 {
     public GameObject script;
+    public GameObject target1;
+    public GameObject target2;
+    public GameObject target3;
+    public GameObject canvas;
     public GameObject notebook;
-    public GameObject re;
-    public GameObject input;
+    
     
     // Update is called once per frame
     void Update()
@@ -15,9 +18,12 @@ public class script1 : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             script.SetActive(false);
+            target1.SetActive(true);
+            target2.SetActive(true);
+            target3.SetActive(true);
+            canvas.SetActive(true);
             notebook.SetActive(true);
-            re.SetActive(true);
-            input.SetActive(true);
         }
+        
     }
 }
