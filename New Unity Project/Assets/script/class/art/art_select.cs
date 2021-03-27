@@ -18,6 +18,16 @@ public class art_select : MonoBehaviour
     public GameObject can2_4;
     public GameObject can2_5;
 
+    public GameObject ans1;
+    public GameObject ans2;
+    public GameObject ans3;
+    public GameObject ans4;
+    public GameObject ans5;
+
+    public GameObject x;
+    public GameObject o;
+
+
 
     public void select_correct() //진품일 경우
     {
@@ -26,55 +36,56 @@ public class art_select : MonoBehaviour
             can1_1.SetActive(false);
             can2_1.SetActive(false);
 
-            can1_2.SetActive(true);
-            can2_2.SetActive(true);
+            ans1.SetActive(true);
+            o.SetActive(true);
             art_total.artNum++;
             art_total.artScore++;
             Debug.Log(art_total.artScore);
-            Debug.Log("진품입니다");
         }
         else if(art_total.artNum == 2)
         {
             can1_2.SetActive(false);
             can2_2.SetActive(false);
 
-            can1_3.SetActive(true);
-            can2_3.SetActive(true);
+            ans2.SetActive(true);
+            o.SetActive(true);
             art_total.artNum++;
             art_total.artScore++;
             Debug.Log(art_total.artScore);
-            Debug.Log("진품입니다");
         }
         else if(art_total.artNum == 3)
         {
             can1_3.SetActive(false);
             can2_3.SetActive(false);
 
-            can1_4.SetActive(true);
-            can2_4.SetActive(true);
+            ans3.SetActive(true);
+            o.SetActive(true);
             art_total.artNum++;
             art_total.artScore++;
             Debug.Log(art_total.artScore);
-            Debug.Log("진품입니다");
         }
         else if(art_total.artNum == 4)
         {
             can1_4.SetActive(false);
             can2_4.SetActive(false);
 
-            can1_5.SetActive(true);
-            can2_5.SetActive(true);
+            ans4.SetActive(true);
+            o.SetActive(true);
             art_total.artNum++;
             art_total.artScore++;
             Debug.Log(art_total.artScore);
-            Debug.Log("진품입니다");
         }
         else if(art_total.artNum == 5)
         {
+            can1_5.SetActive(false);
+            can2_5.SetActive(false);
+
+            ans5.SetActive(true);
+            o.SetActive(true);
+
             art_total.artScore++;
             Debug.Log(art_total.artScore);
-            Debug.Log("진품입니다");
-            SceneManager.LoadScene("미술_게임오버");
+            art_total.artNum++;
         }
     }
 
@@ -85,50 +96,50 @@ public class art_select : MonoBehaviour
             can1_1.SetActive(false);
             can2_1.SetActive(false);
 
-            can1_2.SetActive(true);
-            can2_2.SetActive(true);
+            ans1.SetActive(true);
+            x.SetActive(true);
             art_total.artNum++;
             Debug.Log(art_total.artScore);
-            Debug.Log("가품입니다");
         }
         else if(art_total.artNum == 2)
         {
             can1_2.SetActive(false);
             can2_2.SetActive(false);
 
-            can1_3.SetActive(true);
-            can2_3.SetActive(true);
+            ans2.SetActive(true);
+            x.SetActive(true);
             art_total.artNum++;
             Debug.Log(art_total.artScore);
-            Debug.Log("가품입니다");
         }
         else if(art_total.artNum == 3)
         {
             can1_3.SetActive(false);
             can2_3.SetActive(false);
 
-            can1_4.SetActive(true);
-            can2_4.SetActive(true);
+            ans3.SetActive(true);
+            x.SetActive(true);
             art_total.artNum++;
             Debug.Log(art_total.artScore);
-            Debug.Log("가품입니다");
         }
         else if(art_total.artNum == 4)
         {
             can1_4.SetActive(false);
             can2_4.SetActive(false);
 
-            can1_5.SetActive(true);
-            can2_5.SetActive(true);
+            ans4.SetActive(true);
+            x.SetActive(true);
             art_total.artNum++;
             Debug.Log(art_total.artScore);
-            Debug.Log("가품입니다");
         }
         else if(art_total.artNum == 5)
         {
+            can1_5.SetActive(false);
+            can2_5.SetActive(false);
+
+            ans5.SetActive(true);
+            x.SetActive(true);
             Debug.Log(art_total.artScore);
-            Debug.Log("가품입니다");
-            SceneManager.LoadScene("미술_게임오버");
+            art_total.artNum++;
         }
     }
 }

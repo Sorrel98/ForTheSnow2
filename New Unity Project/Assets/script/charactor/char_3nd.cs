@@ -24,7 +24,7 @@ public class char_3nd : MonoBehaviour
         }
         else
         {
-            transform.position = new Vector3(12.67f, -15.5f, 0f);
+            transform.position = new Vector3(12.67f, -14.5f, 0f);
         }
         WhatFloor.floor = 3;
         WhatFloor.last = 3;
