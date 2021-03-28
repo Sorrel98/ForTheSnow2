@@ -15,7 +15,7 @@ TagManager:
   - Print
   - Money
   - Random
-  - Water
+  - WaterPoint
   layers:
   - Default
   - TransparentFX

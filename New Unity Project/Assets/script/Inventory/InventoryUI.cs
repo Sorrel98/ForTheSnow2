@@ -137,7 +137,7 @@ public class InventoryUI : MonoBehaviour
                     shopSlots[0].UpdateSlotUI();
                 }
             }
-            else if(hit2D.collider.CompareTag("Water"))
+            else if(hit2D.collider.CompareTag("WaterPoint"))
             {
                 if(!isStoreActive)
                 {

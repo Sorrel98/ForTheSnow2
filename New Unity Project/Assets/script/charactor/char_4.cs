@@ -11,7 +11,7 @@ public class char_4 : MonoBehaviour
     {
         if (WhatFloor.floor == 1)
         {
-            transform.position = new Vector3(29.57f, -4f, 0f);
+            transform.position = new Vector3(25.57f, -4f, 0f);
         }
         else if (WhatClass.classroom == 102)
         {

@@ -5,12 +5,13 @@ using UnityEngine.UI;
 
 public class EnrolmentClass : MonoBehaviour
 {
-    public bool history = false;
-    public bool music = false;
-    public bool lit = false;
-    public bool art = false;
-    public bool athletic = false;
-    public bool ethics = false;
+    public static bool history = false;
+    public static bool lit = false;
+    public static bool art = false;
+    public static bool athletic = false;
+    public static bool ethics = false;
+
+    public static EnrolmentClass instance;
 
     public Button[] btnList;
 
@@ -43,21 +44,15 @@ public class EnrolmentClass : MonoBehaviour
         btnList[2].GetComponent<Button>().interactable = false;
     }
 
-    public void enrolmentMusic()
-    {
-        music = true;
-        btnList[3].GetComponent<Button>().interactable = false;
-    }
-
     public void enrolmentAthletic()
     {
         athletic = true;
-        btnList[4].GetComponent<Button>().interactable = false;
+        btnList[3].GetComponent<Button>().interactable = false;
     }
 
     public void enrolmentEthics()
     {
         ethics = true;
-        btnList[5].GetComponent<Button>().interactable = false;
+        btnList[4].GetComponent<Button>().interactable = false;
     }
 }

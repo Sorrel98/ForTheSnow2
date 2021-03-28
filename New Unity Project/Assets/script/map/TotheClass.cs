@@ -17,7 +17,12 @@ public class TotheClass : MonoBehaviour
         if (collision.gameObject.tag == "player")
         {
             Debug.Log(collision.gameObject);
+<<<<<<< Updated upstream
             SceneManager.LoadScene("강의실");
+=======
+            SceneManager.LoadScene("컴퓨터실");
+            
+>>>>>>> Stashed changes
         }
 
     }
