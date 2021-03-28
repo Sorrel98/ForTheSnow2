@@ -16,7 +16,7 @@ public class char_2nd : MonoBehaviour
         }
         else if(WhatFloor.floor == 3)
         {
-            transform.position = new Vector3(12.68f, -15.18f, 0f);
+            transform.position = new Vector3(12.57f, -13.5f, 0f);
         }
 
         WhatFloor.floor = 2;

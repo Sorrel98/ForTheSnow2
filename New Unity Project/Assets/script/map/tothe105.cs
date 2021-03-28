@@ -9,9 +9,14 @@ public class tothe105 : MonoBehaviour
     {
         if (collision.gameObject.tag == "player")
         {
-            Debug.Log(collision.gameObject);
-            SceneManager.LoadScene("문학_notice");
-            WhatClass.classroom = 105;
+            if (class_enter.literal == 0)
+            {
+                Debug.Log(collision.gameObject);
+                SceneManager.LoadScene("문학_notice");
+                WhatClass.classroom = 105;
+                class_enter.literal++;
+            }
+            
 
         }
 

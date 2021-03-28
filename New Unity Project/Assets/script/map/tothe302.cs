@@ -9,10 +9,13 @@ public class tothe302 : MonoBehaviour
     {
         if (collision.gameObject.tag == "player")
         {
-            Debug.Log(collision.gameObject);
-            SceneManager.LoadScene("체육_notice");
-            WhatClass.classroom = 302;
-
+            if (class_enter.athletic == 0)
+            {
+                Debug.Log(collision.gameObject);
+                SceneManager.LoadScene("체육_notice");
+                WhatClass.classroom = 302;
+                class_enter.athletic++;
+            }
         }
 
     }

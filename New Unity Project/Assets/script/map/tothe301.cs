@@ -9,10 +9,13 @@ public class tothe301 : MonoBehaviour
     {
         if (collision.gameObject.tag == "player")
         {
-            Debug.Log(collision.gameObject);
-            SceneManager.LoadScene("미술_notice");
-            WhatClass.classroom = 301;
-
+            if(class_enter.art == 0)
+            {
+                Debug.Log(collision.gameObject);
+                SceneManager.LoadScene("미술_notice");
+                WhatClass.classroom = 301;
+                class_enter.art++;
+            }
         }
 
     }

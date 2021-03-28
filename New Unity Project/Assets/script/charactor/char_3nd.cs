@@ -16,7 +16,7 @@ public class char_3nd : MonoBehaviour
         }
         else if (WhatClass.classroom == 302)
         {
-            transform.position = new Vector3(6.64f, 6.51f, 0f);
+            transform.position = new Vector3(6.29f, 6.31f, 0f);
         }
         else if (WhatClass.classroom == 303)
         {

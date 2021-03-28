@@ -9,10 +9,13 @@ public class tothe303 : MonoBehaviour
     {
         if (collision.gameObject.tag == "player")
         {
-            Debug.Log(collision.gameObject);
-            SceneManager.LoadScene("윤리_notice");
-            WhatClass.classroom = 303;
-
+            if(class_enter.ethics == 0)
+            {
+                Debug.Log(collision.gameObject);
+                SceneManager.LoadScene("윤리_notice");
+                WhatClass.classroom = 303;
+                class_enter.ethics++;
+            }
         }
 
     }
