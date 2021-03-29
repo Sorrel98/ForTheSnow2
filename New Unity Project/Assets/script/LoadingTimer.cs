@@ -20,7 +20,7 @@ public class LoadingTimer : MonoBehaviour
    
         if(timer > waitingTime)
     {
-        SceneManager.LoadScene("야외");
+        SceneManager.LoadScene("1층_중앙");
     }
 }
 }

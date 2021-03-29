@@ -33,10 +33,6 @@ EditorBuildSettings:
     path: "Assets/Scenes/\uAC15\uC758\uC2E4.unity"
     guid: 243bab45c4a130a4f9f2a59337d0c257
   - enabled: 1
-<<<<<<< Updated upstream
-    path: "Assets/Scenes/\uCEF4\uD4E8\uD130\uC2E4.unity"
-    guid: f6c2412c62faf3a4084663ce644b9b98
-=======
     path: "Assets/Scenes/\uCCB4\uC721_notice.unity"
     guid: 80a307322cfcf684586056e5b149a5cb
   - enabled: 1
@@ -48,9 +44,6 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/\uCCB4\uC721_\uC131\uC801\uD45C.unity"
     guid: 9df0b9328a96e9443b4e833b808e0fde
-  - enabled: 1
-    path: "Assets/Scenes/\uCEF4\uD4E8\uD130\uC2E4.unity"
-    guid: f6c2412c62faf3a4084663ce644b9b98
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
@@ -96,5 +89,4 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/\uBBF8\uC220_notice.unity"
     guid: 979aea6da4ef01742ae8fd9ad0cea23a
->>>>>>> Stashed changes
   m_configObjects: {}

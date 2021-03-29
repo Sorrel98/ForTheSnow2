@@ -10,7 +10,6 @@ public class ShopSlot : MonoBehaviour, IPointerUpHandler
 	public Item item;
 	public Image itemIcon;
 	public bool soldOut = false;
-	public bool coinSoldOut = false;
 	InventoryUI inventoryUI;
 
 	public void Init(InventoryUI Iui)
@@ -50,26 +49,20 @@ public class ShopSlot : MonoBehaviour, IPointerUpHandler
 				{
 					for(int i = 0; i < Inventory.instance.items.Count; i++)
 					{
-						if(Inventory.instance.items[i].itemName.ToString().Equals("코인"))
+						if(Inventory.instance.items[i].itemType.ToString().Equals("Coin") || Inventory.instance.items[i].itemType.ToString().Equals("FreeCoin"))
 						{
 							for(int j = 0; j < Inventory.instance.items.Count; j++)
 							{
-								if(Inventory.instance.items[j].itemName.ToString().Equals("종이"))
+								if(Inventory.instance.items[j].itemType.ToString().Equals("Paper") || Inventory.instance.items[j].itemType.ToString().Equals("FreePaper"))
 								{
-									for(int a = Inventory.instance.items.Count; a >= 0; a--)
-									{
-										if(i == a)
-											Inventory.instance.RemoveItem(i);
-										else if(j == a)
-											Inventory.instance.RemoveItem(j);
-									}
+									Inventory.instance.RemoveItem(j);
+									Inventory.instance.RemoveItem(i);
 									Inventory.instance.AddItem(item);
 									inventoryUI.Buy(slotnum);
 									UpdateSlotUI();
 									break;
 								}
 							}
-							break;
 						}
 					}
 				}
@@ -110,7 +103,7 @@ public class ShopSlot : MonoBehaviour, IPointerUpHandler
 				{
 					Inventory.instance.AddItem(item);
 					inventoryUI.Buy(slotnum);
-					coinSoldOut = true;
+					soldOut = true;
 					UpdateSlotUI();
 					
 				}
