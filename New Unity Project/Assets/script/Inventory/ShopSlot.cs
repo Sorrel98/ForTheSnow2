@@ -68,8 +68,8 @@ public class ShopSlot : MonoBehaviour, IPointerUpHandler
 									break;
 								}
 							}
+							break;
 						}
-						break;
 					}
 				}
 				else if(item.itemType.ToString().Equals("Bread"))
