@@ -1,1 +1,9 @@
+<<<<<<< Updated upstream
 sceneSetups: []
+=======
+sceneSetups:
+- path: "Assets/Scenes/\uC778\uD2B8\uB85C.unity"
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
+>>>>>>> Stashed changes
