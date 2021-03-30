@@ -25,11 +25,14 @@ MonoBehaviour:
     width: 1280
     height: 637.3334
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
 >>>>>>> parent of a0fd9dd (대대적인 게시판 수정)
+=======
+>>>>>>> Stashed changes
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 7}
@@ -52,6 +55,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -69,6 +73,10 @@ MonoBehaviour:
     y: 302
     width: 788
 >>>>>>> parent of a0fd9dd (대대적인 게시판 수정)
+=======
+    y: 317
+    width: 796
+>>>>>>> Stashed changes
     height: 271
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
@@ -95,6 +103,7 @@ MonoBehaviour:
   - {fileID: 2}
   m_Position:
     serializedVersion: 2
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -131,6 +140,16 @@ MonoBehaviour:
 >>>>>>> Stashed changes
 =======
 >>>>>>> parent of a0fd9dd (대대적인 게시판 수정)
+=======
+    x: 203
+    y: 0
+    width: 796
+    height: 588
+  m_MinSize: {x: 232, y: 492}
+  m_MaxSize: {x: 10002, y: 14042}
+  vertical: 1
+  controlID: 60
+>>>>>>> Stashed changes
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -151,6 +170,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -164,12 +184,15 @@ MonoBehaviour:
   controlID: 122
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> Stashed changes
     width: 1280
     height: 588
   m_MinSize: {x: 708, y: 492}
   m_MaxSize: {x: 18003, y: 14042}
   vertical: 0
   controlID: 125
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 =======
     width: 1280
@@ -181,6 +204,8 @@ MonoBehaviour:
 >>>>>>> Stashed changes
 =======
 >>>>>>> parent of a0fd9dd (대대적인 게시판 수정)
+=======
+>>>>>>> Stashed changes
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -196,6 +221,7 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -211,10 +237,15 @@ MonoBehaviour:
 =======
     x: 999
     y: 0
+=======
+    x: 999
+    y: 0
+>>>>>>> Stashed changes
     width: 281
     height: 588
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 =======
     x: 1001
@@ -226,6 +257,8 @@ MonoBehaviour:
 >>>>>>> Stashed changes
 =======
 >>>>>>> parent of a0fd9dd (대대적인 게시판 수정)
+=======
+>>>>>>> Stashed changes
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -248,6 +281,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -259,6 +293,8 @@ MonoBehaviour:
   m_MaxSize: {x: 4001, y: 4021}
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> Stashed changes
     width: 203
     height: 588
   m_MinSize: {x: 200, y: 200}
@@ -297,6 +333,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -304,6 +341,8 @@ MonoBehaviour:
     height: 623
   m_MinSize: {x: 875, y: 300}
 =======
+=======
+>>>>>>> Stashed changes
     width: 1280
     height: 638
   m_MinSize: {x: 875, y: 542}
@@ -336,6 +375,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -349,6 +389,9 @@ MonoBehaviour:
 =======
     width: 1266
 >>>>>>> parent of a0fd9dd (대대적인 게시판 수정)
+=======
+    width: 1280
+>>>>>>> Stashed changes
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -369,6 +412,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -386,6 +430,10 @@ MonoBehaviour:
     y: 603
     width: 1266
 >>>>>>> parent of a0fd9dd (대대적인 게시판 수정)
+=======
+    y: 618
+    width: 1280
+>>>>>>> Stashed changes
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -406,6 +454,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -423,6 +472,10 @@ MonoBehaviour:
     width: 788
     height: 302
 >>>>>>> parent of a0fd9dd (대대적인 게시판 수정)
+=======
+    width: 796
+    height: 317
+>>>>>>> Stashed changes
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
@@ -479,6 +532,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -500,6 +554,11 @@ MonoBehaviour:
     y: 386
     width: 786
 >>>>>>> parent of a0fd9dd (대대적인 게시판 수정)
+=======
+    x: 203.33334
+    y: 390
+    width: 794
+>>>>>>> Stashed changes
     height: 250
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
@@ -515,6 +574,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -529,22 +589,28 @@ MonoBehaviour:
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
     - Assets/Scenes
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
   - Assets/Scenes
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
 >>>>>>> parent of a0fd9dd (대대적인 게시판 수정)
+=======
+>>>>>>> Stashed changes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: F:\JINA UR\Documents\GitHub\ForTheSnow2\New Unity Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -556,10 +622,13 @@ MonoBehaviour:
     m_ExpandedIDs: 00000000583d00005a3d00005c3d00005e3d0000603d0000623d000000ca9a3b
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> Stashed changes
     scrollPos: {x: 0, y: 106}
     m_SelectedIDs: 4c3e0000
     m_LastClickedID: 15948
     m_ExpandedIDs: 00000000da3d0000dc3d0000de3d0000e03d0000e23d0000e43d000000ca9a3b
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 =======
     scrollPos: {x: 0, y: 58}
@@ -569,6 +638,8 @@ MonoBehaviour:
 >>>>>>> Stashed changes
 =======
 >>>>>>> parent of a0fd9dd (대대적인 게시판 수정)
+=======
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -596,6 +667,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -609,6 +681,9 @@ MonoBehaviour:
 =======
     m_ExpandedIDs: 00000000583d00005a3d00005c3d00005e3d0000603d0000623d0000
 >>>>>>> parent of a0fd9dd (대대적인 게시판 수정)
+=======
+    m_ExpandedIDs: 00000000da3d0000dc3d0000de3d0000e03d0000e23d0000e43d0000
+>>>>>>> Stashed changes
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -660,6 +735,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< Updated upstream
     m_ScrollPosition: {x: 0, y: 190}
@@ -669,6 +745,9 @@ MonoBehaviour:
 =======
     m_ScrollPosition: {x: 0, y: 0}
 >>>>>>> parent of a0fd9dd (대대적인 게시판 수정)
+=======
+    m_ScrollPosition: {x: 0, y: 190}
+>>>>>>> Stashed changes
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 152
@@ -693,6 +772,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -704,10 +784,13 @@ MonoBehaviour:
     height: 552
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> Stashed changes
     x: 999.3334
     y: 72.66667
     width: 280
     height: 567
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 =======
     x: 1001.3334
@@ -717,6 +800,8 @@ MonoBehaviour:
 >>>>>>> Stashed changes
 =======
 >>>>>>> parent of a0fd9dd (대대적인 게시판 수정)
+=======
+>>>>>>> Stashed changes
   m_ViewDataDictionary: {fileID: 0}
   m_OpenAddComponentMenu: 0
   m_ObjectsLockedBeforeSerialization: []
@@ -762,15 +847,19 @@ MonoBehaviour:
     width: 202
     height: 567
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
 >>>>>>> parent of a0fd9dd (대대적인 게시판 수정)
+=======
+>>>>>>> Stashed changes
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -792,20 +881,25 @@ MonoBehaviour:
       m_LastClickedID: -1190
       m_ExpandedIDs: e0f8ffff5afbffff
 >>>>>>> parent of a0fd9dd (대대적인 게시판 수정)
+=======
+      m_SelectedIDs: a2a20000
+      m_LastClickedID: 41634
+      m_ExpandedIDs: e471ffff6472ffff5c73ffff5475ffff7a79ffff6c84ffff9c84ffffa487fffffe87ffffa088ffff7689ffff368cffff26a2ffff40a3ffff06a4ffff78a4ffffa6a4ffffd2a4ffff4ca5ffff58b7fffffcb8ffff2ac1fffff2c5ffff94c6ffff4ed7ffffcedeffff4ee5ffff12e7ffff1ce7ffff7ce7ffff88eaffff06ebffff14efffff1ef2ffffeaf3ffff08f5fffff4ffffffb83e0000d83e000084450000864b00005a4d0000365300000854000028540000e4590000065a0000305a0000585a0000c461000016620000246200003a6600008c710000407d000024830000ac880000808900002c8b0000a48e0000569900005e990000ae990000b8990000f0990000009a00000a9a00002c9a0000629a0000fea100002ea2000090a2000090ab0000
+>>>>>>> Stashed changes
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Button
+        m_OriginalName: Button
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: 41446
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 6}
       m_SearchString: 
@@ -836,6 +930,7 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -847,10 +942,13 @@ MonoBehaviour:
     height: 281
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> Stashed changes
     x: 203.33334
     y: 72.66667
     width: 794
     height: 296
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 =======
     x: 203.33334
@@ -860,6 +958,8 @@ MonoBehaviour:
 >>>>>>> Stashed changes
 =======
 >>>>>>> parent of a0fd9dd (대대적인 게시판 수정)
+=======
+>>>>>>> Stashed changes
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 7328aa885e1db624f92f642bca2b641d
@@ -871,6 +971,7 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -892,6 +993,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0}
 >>>>>>> parent of a0fd9dd (대대적인 게시판 수정)
+=======
+    m_Target: {x: 318.75415, y: 426.4909, z: -39.885418}
+    speed: 2
+    m_Value: {x: 318.75415, y: 426.4909, z: -39.885418}
+>>>>>>> Stashed changes
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -941,6 +1047,7 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -962,6 +1069,11 @@ MonoBehaviour:
     speed: 2
     m_Value: 11.442356
 >>>>>>> parent of a0fd9dd (대대적인 게시판 수정)
+=======
+    m_Target: 231.20941
+    speed: 2
+    m_Value: 195.94019
+>>>>>>> Stashed changes
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1007,10 +1119,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< Updated upstream
     x: 197.33334
     y: 84
     width: 786
     height: 281
+=======
+    x: 203.33334
+    y: 72.66667
+    width: 794
+    height: 296
+>>>>>>> Stashed changes
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -1057,16 +1176,20 @@ MonoBehaviour:
       x: 0
 <<<<<<< Updated upstream
       y: 21
+<<<<<<< Updated upstream
       width: 786
       height: 260
     m_Scale: {x: 0.5078125, y: 0.5078125}
     m_Translation: {x: 393, y: 130}
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> Stashed changes
       width: 794
       height: 275
     m_Scale: {x: 0.5371094, y: 0.5371094}
     m_Translation: {x: 397, y: 137.5}
+<<<<<<< Updated upstream
 >>>>>>> Stashed changes
 =======
       y: 0
@@ -1077,12 +1200,15 @@ MonoBehaviour:
 >>>>>>> Stashed changes
 =======
 >>>>>>> parent of a0fd9dd (대대적인 게시판 수정)
+=======
+>>>>>>> Stashed changes
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -1097,10 +1223,13 @@ MonoBehaviour:
   m_LastWindowPixelSize: {x: 1179, y: 421.5}
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> Stashed changes
       x: -739.14185
       y: -256
       width: 1478.2837
       height: 512
+<<<<<<< Updated upstream
     m_MinimalGUI: 1
   m_defaultScale: 0.5371094
   m_LastWindowPixelSize: {x: 1191, y: 444}
@@ -1116,6 +1245,11 @@ MonoBehaviour:
 >>>>>>> Stashed changes
 =======
 >>>>>>> parent of a0fd9dd (대대적인 게시판 수정)
+=======
+    m_MinimalGUI: 1
+  m_defaultScale: 0.5371094
+  m_LastWindowPixelSize: {x: 1191, y: 444}
+>>>>>>> Stashed changes
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -1143,7 +1277,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 203.33334
-    y: 382.6667
-    width: 795
-    height: 257
+    y: 390
+    width: 794
+    height: 250
   m_ViewDataDictionary: {fileID: 0}
