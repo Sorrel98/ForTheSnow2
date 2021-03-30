@@ -22,6 +22,7 @@ public class literal_scoreboard : MonoBehaviour
             ScriptTxt.text = "당신의 점수는 C입니다";
         }
         scoreSum.sum += literal_total.literalScore;
+        scoreSum.CountUp();
     }
     
 }

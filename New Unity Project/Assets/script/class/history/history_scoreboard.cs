@@ -22,5 +22,6 @@ public class history_scoreboard : MonoBehaviour
             ScriptTxt.text = "당신의 점수는 C입니다";
         }
         scoreSum.sum += history_score.historyScore;
+        scoreSum.CountUp();
     }
 }
