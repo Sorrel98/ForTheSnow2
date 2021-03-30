@@ -76,7 +76,7 @@ public class ShopSlot : MonoBehaviour, IPointerUpHandler
 				{
 					for(int i = 0; i < Inventory.instance.items.Count; i++)
 					{
-						if(Inventory.instance.items[i].itemType.ToString().Equals("Coin") || Inventory.instance.items[i].itemType.ToString().Equals("FreeCoin"))
+						if(Inventory.instance.items[i].itemName.ToString().Equals("코인"))
 						{
 							Inventory.instance.RemoveItem(i);
 							Inventory.instance.AddItem(item);
@@ -91,7 +91,7 @@ public class ShopSlot : MonoBehaviour, IPointerUpHandler
 				{
 					for(int i = 0; i < Inventory.instance.items.Count; i++)
 					{
-						if(Inventory.instance.items[i].itemType.ToString().Equals("Coin") || Inventory.instance.items[i].itemType.ToString().Equals("FreeCoin"))
+						if(Inventory.instance.items[i].itemName.ToString().Equals("코인"))
 						{
 							Inventory.instance.RemoveItem(i);
 							Inventory.instance.AddItem(item);
