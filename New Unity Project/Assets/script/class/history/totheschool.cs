@@ -16,8 +16,15 @@ public class totheschool : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            WhatClass.classroom = 102;
-            SceneManager.LoadScene("1층_좌");
+            if(WhatClass.classroom == 102)
+            {
+                SceneManager.LoadScene("1층_좌");
+            }
+            else if(WhatClass.classroom == 105)
+            {
+                SceneManager.LoadScene("1층_우");
+            }
+            
 
         }
     }
