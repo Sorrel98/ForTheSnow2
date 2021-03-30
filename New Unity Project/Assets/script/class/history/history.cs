@@ -9,14 +9,6 @@ public class history : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if(WhatClass.classroom == 102)
-        {
-            Target.SetActive(true);
-        }
-        else
-        {
-            Target.SetActive(false);
-        }
         
     }
 

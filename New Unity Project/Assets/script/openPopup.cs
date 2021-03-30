@@ -11,7 +11,6 @@ public class openPopup : MonoBehaviour {
     public GameObject target;
 
     public void OnMouseDown(){
-        Debug.Log("open");
         popup.SetActive(true);
      }
      

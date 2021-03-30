@@ -12,7 +12,7 @@ public class char_2nd : MonoBehaviour
     {
         if(WhatFloor.floor == 1)
         {
-            transform.position = new Vector3(21.34f, -15.18f, 0f);
+            transform.position = new Vector3(21.19f, -14.29f, 0f);
         }
         else if(WhatFloor.floor == 3)
         {

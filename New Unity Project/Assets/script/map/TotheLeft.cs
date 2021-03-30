@@ -13,7 +13,7 @@ public class TotheLeft : MonoBehaviour
     {
         if (collision.gameObject.tag == "player")
         {
-            Debug.Log(collision.gameObject);
+            WhatClass.classroom = 101;
             SceneManager.LoadScene("1층_좌");
         }
 

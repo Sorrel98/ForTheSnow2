@@ -16,6 +16,7 @@ public class TotheClass : MonoBehaviour
     {
         if (collision.gameObject.tag == "player" && EnrolmentClass.history == true)
         {
+            WhatClass.classroom = 102;
             for(int i = 0; i < Inventory.instance.items.Count; i++)
 			{
 				if(Inventory.instance.items[i].itemName.ToString().Equals("역사"))
@@ -23,7 +24,6 @@ public class TotheClass : MonoBehaviour
                     if(class_enter.history == 0)
                     {
                         Inventory.instance.RemoveItem(i);
-                        Debug.Log(collision.gameObject);
                         SceneManager.LoadScene("강의실");
                         class_enter.history++;
                     }

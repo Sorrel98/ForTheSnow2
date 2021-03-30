@@ -9,6 +9,7 @@ public class char_4 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Debug.Log("WhatClass: " + WhatClass.classroom);
         if (WhatFloor.floor == 1)
         {
             transform.position = new Vector3(28.11f, -3.17f, 0f);
@@ -19,7 +20,7 @@ public class char_4 : MonoBehaviour
         }
         else if(WhatClass.classroom == 101)
         {
-            transform.position = new Vector3(-10.69f, 2.68f, 0f);
+            transform.position = new Vector3(-10.89f, 2.13f, 0f);
         }
         WhatFloor.floor = 4;
         WhatFloor.last = 4;
