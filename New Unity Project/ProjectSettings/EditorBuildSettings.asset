@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: "Assets/Scenes/\uC778\uD2B8\uB85C.unity"
+    guid: ea1a3fb3f3ca16b4bb10e2921825d25e
+  - enabled: 1
     path: "Assets/Scenes/\uC778\uBCA4\uD1A0\uB9AC\uC0DD\uC131\uC52C.unity"
     guid: dfd23c9b72fbe1545a8066dbda2509a5
   - enabled: 1
@@ -44,6 +47,9 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/\uCCB4\uC721_\uC131\uC801\uD45C.unity"
     guid: 9df0b9328a96e9443b4e833b808e0fde
+  - enabled: 1
+    path: "Assets/Scenes/\uCEF4\uD4E8\uD130\uC2E4.unity"
+    guid: f6c2412c62faf3a4084663ce644b9b98
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
@@ -89,4 +95,7 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/\uBBF8\uC220_notice.unity"
     guid: 979aea6da4ef01742ae8fd9ad0cea23a
+  - enabled: 1
+    path: "Assets/Scenes/\uC5D4\uB529.unity"
+    guid: c15db6d42d71d544ba21b5b6e3d97493
   m_configObjects: {}

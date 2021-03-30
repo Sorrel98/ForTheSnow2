@@ -29,7 +29,7 @@ public class INTRO : MonoBehaviour
             }
             else if(flag == 3)
             {
-                SceneManager.LoadScene("야외");
+                SceneManager.LoadScene("인벤토리생성씬");
             }
             
         }

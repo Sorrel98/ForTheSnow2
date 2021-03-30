@@ -22,6 +22,7 @@ public class score : MonoBehaviour
             ScriptTxt.text = "당신의 점수는 C입니다";
         }
         scoreSum.sum += finish.score;
+        scoreSum.CountUp();
     }
     
 }

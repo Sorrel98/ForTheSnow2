@@ -22,7 +22,7 @@ public class art_scoreBoard : MonoBehaviour
             ScriptTxt.text = "당신의 점수는 C입니다";
         }
         scoreSum.sum += art_total.artScore;
-    
+        scoreSum.CountUp();
     }
     
 }

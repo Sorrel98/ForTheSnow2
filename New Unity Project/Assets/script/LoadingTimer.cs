@@ -6,12 +6,12 @@ using UnityEngine.SceneManagement;
 public class LoadingTimer : MonoBehaviour
 {
     double timer;
-    int waitingTime;
+    double waitingTime;
  
     void Start()
     {
         timer = 0.0;
-        waitingTime = 1;
+        waitingTime = 0.3;
     }
  
     void Update()
@@ -19,8 +19,8 @@ public class LoadingTimer : MonoBehaviour
         timer += Time.deltaTime;
    
         if(timer > waitingTime)
-    {
-        SceneManager.LoadScene("1층_중앙");
+        {
+            SceneManager.LoadScene("야외");
+        }
     }
-}
 }
