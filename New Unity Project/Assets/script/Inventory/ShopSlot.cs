@@ -38,7 +38,7 @@ public class ShopSlot : MonoBehaviour, IPointerUpHandler
 	{
 		if(item != null)
 		{
-			if(ItemDatabase.instance.money >= item.itemCost && !soldOut && Inventory.instance.items.Count < Inventory.instance.SlotCnt)
+			if(ItemDatabase.instance.money >= item.itemCost && !soldOut && Inventory.instance.items.Count <= Inventory.instance.SlotCnt)
 			{
 				/*ItemDatabase.instance.money -= item.itemCost;
 				Inventory.instance.AddItem(item);
